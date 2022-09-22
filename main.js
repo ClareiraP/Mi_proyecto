@@ -12,3 +12,5 @@ const auxArr2=["hola","como","estas"]
 
 auxArr2.forEach((value,index,arr)=> console.log(value,index,arr))
 
+let findReturn = find(a,(element)=>element >9)
+console.log(findReturn)
