@@ -1,8 +1,10 @@
-const Title =() =>{
-    return(
-        <div>
-            <h1>Insignias Scouts</h1>
-        </div>
-    )
+import React from 'react';
+
+export const Title =(props)  =>{
+       return(
+        
+            <h1>{props.gretting}</h1>
+        
+    );
 }
-export default Title
+export default Title;
